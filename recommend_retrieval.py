@@ -128,6 +128,9 @@ def main(input_symps, data_path, result_num):
 
 
 if __name__ == '__main__':
+
+    # 被检索的药方库. 症状集合\t中药集合
+    # 库自然是越大越好.
     data_path = './SHL_core_clean.txt'
 
     symps_list = ['下痢']
