@@ -131,7 +131,9 @@ if __name__ == '__main__':
     data_path = './SHL_core_clean.txt'
 
     symps_list = ['下痢']
+    symps_list = ['寒热交替']
+    symps_list = ['发热']
 
-    result = main(symps_list, data_path, 5)
+    result = main(symps_list, data_path, 1)
 
     print(result)
